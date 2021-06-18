@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SMART_MOVERSModel1StoreContainer" CdmEntityContainer="SMART_MOVERSEntities2">
+    <EntitySetMapping Name="USER_DETAIL">
+      <EntityTypeMapping TypeName="SMART_MOVERSModel1.USER_DETAIL">
+        <MappingFragment StoreEntitySet="USER_DETAIL">
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="USER_TYPE" ColumnName="USER_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
